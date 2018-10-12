@@ -13,16 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ソース ファイル\テストソースファイル">
-      <UniqueIdentifier>{779ad63c-5799-4054-95e5-f7f1047b4266}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="map.c">
-      <Filter>ソース ファイル\テストソースファイル</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ai.c">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="unitdata.c">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="actions.c">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shortfunctions.c">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="randommapbuilder.c">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="actionperround.c">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="displayoutput.c">
+      <Filter>リソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

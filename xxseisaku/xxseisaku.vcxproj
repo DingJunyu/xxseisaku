@@ -139,8 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ai.c" />
+    <ClCompile Include="actions.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="map.c" />
+    <ClCompile Include="randommapbuilder.c" />
+    <ClCompile Include="actionperround.c" />
+    <ClCompile Include="displayoutput.c" />
+    <ClCompile Include="shortfunctions.c" />
+    <ClCompile Include="unitdata.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />
